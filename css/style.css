@@ -338,3 +338,24 @@ h2{
 .flex-card-sec4 p{
     margin-right: 30px;
 }
+
+/* sezione5 */
+
+.sec5{
+    width: 55%;
+    margin: auto;
+    margin-top: 150px;
+}
+.sec5 div{
+    width: 70%;
+}
+
+.sec5 h3{
+    font-size: 36px;
+}
+.sec5 a{
+    font-size: 15px;
+    color: var(--azzurro);
+}
+
+/* sezione6 */
