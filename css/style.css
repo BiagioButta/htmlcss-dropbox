@@ -181,6 +181,7 @@ nav{
 .col>p{
     margin: 30px 0;
     margin-left: 28px;
+    font-size: 15px;
 }
 .mid-col-sec2{
     display: flex;
@@ -188,6 +189,10 @@ nav{
     margin: 15px 0;
     margin-left: 28px;
     margin-right: 28px
+}
+
+.mid-col-sec2>p{
+    font-size: 15px;
 }
 .mid-col-sec2>i{
     margin-right: 5px;
@@ -219,7 +224,7 @@ hr{
     display: flex;
     margin: 20px 0;
     align-items: baseline;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .col li>i{
