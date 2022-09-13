@@ -26,8 +26,7 @@ header{
 }
 nav{
     width: 100%;
-    height: 10vh;
-    border: 1px solid black;
+    height: 9vh;
     display: flex;
     justify-content: space-between;
     z-index: 1000;
@@ -134,3 +133,89 @@ nav{
 /* fine hero */
 
 /* main  */
+/* sezione1 */
+.sec1{
+    width: 55%;
+    margin: auto;
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+/* sezione2 */
+.sec2{
+    width: 55%;
+    margin: auto;
+    height: 1000px;
+}
+
+.col{
+    width: calc(100% / 3.5);
+    border: 1px solid lightgray;
+    height: 1000px;
+}
+/* .col> *{
+    margin-left: 28px;
+} */
+
+.sec2-top{
+    display: flex;
+    justify-content: space-between;
+}
+.top-col-sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.col h3{
+    margin-top: 25px;
+    margin-left: 28px;
+}
+.col h4{
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.col>p{
+    margin: 30px 0;
+    margin-left: 28px;
+}
+.mid-col-sec2{
+    display: flex;
+    align-items: baseline;
+    margin: 15px 0;
+    margin-left: 28px;
+}
+.col .btn{
+    background-color: var(--azzurro);
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+.btn a{
+    color: var(--bianco);
+    text-decoration: none;
+}
+hr{
+    margin-right: 214px;
+    margin-left: 28px;
+}
+.col ul{
+    margin-top: 50px;
+    margin-left: 28px;
+}
+.col li{
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    align-items: baseline;
+}
+
+.col li>i{
+    color: var(--azzurro);
+    font-size: 18px;
+}
