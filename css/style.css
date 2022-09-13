@@ -187,6 +187,10 @@ nav{
     align-items: baseline;
     margin: 15px 0;
     margin-left: 28px;
+    margin-right: 28px
+}
+.mid-col-sec2>i{
+    margin-right: 5px;
 }
 .col .btn{
     background-color: var(--azzurro);
@@ -195,6 +199,7 @@ nav{
     border: none;
     margin-top: 30px;
     margin-left: 28px;
+    margin-right: 28px
 }
 .btn a{
     color: var(--bianco);
@@ -207,15 +212,18 @@ hr{
 .col ul{
     margin-top: 50px;
     margin-left: 28px;
+    margin-right: 28px;
 }
 .col li{
     list-style: none;
     display: flex;
     margin: 20px 0;
     align-items: baseline;
+    font-size: 16px;
 }
 
 .col li>i{
     color: var(--azzurro);
     font-size: 18px;
+    margin-right:5px;
 }
