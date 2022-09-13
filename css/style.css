@@ -205,7 +205,7 @@ nav{
     color: var(--bianco);
     text-decoration: none;
 }
-hr{
+#sec2hr{
     margin-right: 214px;
     margin-left: 28px;
 }
@@ -359,3 +359,66 @@ h2{
 }
 
 /* sezione6 */
+
+.sec6{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.sec6-topdiv{
+    width: 100%;
+    height: 635px;
+    border: 1px solid black;
+    display: flex;
+}
+.square{
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+.squarein4 div{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+.squarein4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec6-botdiv{
+    width: 100%;
+    height: 317.5px;
+    border: 1px solid black;
+    background-color: var(--azzurrino);
+}
+
+.squarein4 img{
+    filter: invert(1);
+    width: 50%;
+}
+
+.squarein4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6-square{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.sec6-square img{
+    width: 50%;
+}
+#sec6hr{
+    margin-right: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sec6-square p{
+    margin-bottom: 50px;
+}
