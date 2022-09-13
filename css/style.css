@@ -146,17 +146,12 @@ nav{
 .sec2{
     width: 55%;
     margin: auto;
-    height: 1000px;
 }
 
 .col{
     width: calc(100% / 3.5);
     border: 1px solid lightgray;
-    height: 1000px;
 }
-/* .col> *{
-    margin-left: 28px;
-} */
 
 .sec2-top{
     display: flex;
@@ -231,4 +226,78 @@ hr{
     color: var(--azzurro);
     font-size: 18px;
     margin-right:5px;
+}
+
+.sec2-bot{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+}
+
+.inner-sec2-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 30px;
+}
+
+.sec2-bot :last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec2-bot h4{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.enterprise{
+    width: 70%;
+}
+.btn-enterprise{
+    background-color: var(--azzurro);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    line-height: 40px;
+}
+
+.btn-enterprise a{
+    color: var(--bianco);
+    text-decoration: none;
+}
+
+/* sezione3 */
+
+.sec3{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.sec3 img{
+    width: 660px;
+}
+
+.inner-sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: calc(100% / 3);
+    margin-top: 30px;
+}
+.btn-sec3{
+    background-color: var(--bianco);
+    border: 1px solid var(--nero);
+    height: 40px;
+    width: 160px;
+}
+.btn-sec3 a{
+    text-decoration: none;
+    font-size: 16px;
 }
