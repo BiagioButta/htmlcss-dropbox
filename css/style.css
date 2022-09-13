@@ -254,6 +254,7 @@ hr{
 }
 .enterprise{
     width: 70%;
+    height: 190px;
 }
 .btn-enterprise{
     background-color: var(--azzurro);
@@ -277,6 +278,7 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .sec3 img{
@@ -289,15 +291,50 @@ hr{
     justify-content: space-around;
     height: 300px;
     width: calc(100% / 3);
-    margin-top: 30px;
+    margin-top: 60px;
+}
+.inner-sec3 p{
+    margin: 30px 0;
 }
 .btn-sec3{
     background-color: var(--bianco);
     border: 1px solid var(--nero);
-    height: 40px;
     width: 160px;
+    padding: 10px 0;
 }
 .btn-sec3 a{
     text-decoration: none;
     font-size: 16px;
+}
+
+/* sezione4 */
+
+h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.sec4{
+    width: 55%;
+    margin: auto;
+}
+
+.flex-card-sec4 img{
+    width: 100%;
+}
+.flex-card-sec4 div{
+    width: calc(100% / 3);
+    justify-content: space-between;
+}
+.flex-card-sec4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-card-sec4 h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.flex-card-sec4 p{
+    margin-right: 30px;
 }
