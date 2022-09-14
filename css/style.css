@@ -368,17 +368,14 @@ h2{
 .sec6-topdiv{
     width: 100%;
     height: 635px;
-    border: 1px solid black;
     display: flex;
 }
 .square{
     width: calc(100% / 3);
-    border: 1px solid black;
 }
 .squarein4 div{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
 }
 .squarein4{
     display: flex;
@@ -388,8 +385,8 @@ h2{
 .sec6-botdiv{
     width: 100%;
     height: 317.5px;
-    border: 1px solid black;
     background-color: var(--azzurrino);
+    display: flex;
 }
 
 .squarein4 img{
@@ -421,4 +418,60 @@ h2{
 
 .sec6-square p{
     margin-bottom: 50px;
+}
+
+.sec6-botdiv h2{
+    color: rgb(163, 4, 65);
+    width: 50%;
+    font-size: 35px;
+}
+.btn-sec6{
+    background-color: var(--bianco);
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    margin-bottom: 100px;
+}
+.btn-sec6 a{
+    text-decoration: none;
+}
+.sec6-botdiv :first-child{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sec6-botdiv :last-child{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* sezione7 */
+
+.sec7{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    margin-top: 100px;
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.q1{
+    border-top: 1px solid grey;
+}
+.q2{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.q3{
+    border-bottom: 1px solid grey;
+}
+.question p{
+    margin: 30px 0;
 }
