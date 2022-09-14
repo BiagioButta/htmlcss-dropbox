@@ -64,14 +64,11 @@ nav{
     margin-right: 4%;
 }
 
-.inizia{
-    background-color: var(--azzurro);
-    padding: 1% 2%;    
-}
-
 .a-inizia{
     color: var(--bianco);
     text-decoration: none;
+    background-color: var(--azzurro);
+    padding: 8px 10px;
 }
 
 /* fine nav */
@@ -208,17 +205,20 @@ nav{
     margin-right: 5px;
 }
 .col .btn{
-    background-color: var(--azzurro);
-    width: 80%;
-    height: 40px;
+    width: 80%;  
     border: none;
     margin-top: 30px;
     margin-left: 28px;
     margin-right: 28px
 }
+#contattaci{
+    padding: 12px 87px;
+}
 .btn a{
     color: var(--bianco);
     text-decoration: none;
+    background-color: var(--azzurro);
+    padding: 12px 44px;
 }
 #sec2hr{
     margin-right: 214px;
@@ -272,7 +272,6 @@ nav{
     height: 190px;
 }
 .btn-enterprise{
-    background-color: var(--azzurro);
     width: 200px;
     height: 40px;
     text-align: center;
@@ -281,8 +280,11 @@ nav{
 }
 
 .btn-enterprise a{
+    background-color: var(--azzurro);
     color: var(--bianco);
     text-decoration: none;
+    padding: 0 28px;
+    
 }
 
 /* sezione3 */
@@ -311,15 +313,13 @@ nav{
 .inner-sec3 p{
     margin: 30px 0;
 }
-.btn-sec3{
+.inner-sec3 a{
     background-color: var(--bianco);
     border: 1px solid var(--nero);
-    width: 160px;
-    padding: 10px 0;
-}
-.btn-sec3 a{
+    width: 150px;
+    text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    padding: 8px 10px;
 }
 
 /* sezione4 */
@@ -372,6 +372,9 @@ h2{
     font-size: 15px;
     color: var(--azzurro);
 }
+#a-nohover:hover{
+    background-color: var(--bianco);
+}
 
 /* sezione6 */
 
@@ -379,10 +382,11 @@ h2{
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
+    height: calc(100vh - 9vh);
 }
 .sec6-topdiv{
     width: 100%;
-    height: 635px;
+    height: calc((100%* 2) / 3);
     display: flex;
 }
 .square{
@@ -399,7 +403,7 @@ h2{
 
 .sec6-botdiv{
     width: 100%;
-    height: 317.5px;
+    height: calc(100% / 3);
     background-color: var(--azzurrino);
     display: flex;
 }
@@ -416,6 +420,8 @@ h2{
 }
 
 .sec6-square{
+    overflow: auto;
+    background-color: var(--grigio);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -424,6 +430,7 @@ h2{
 }
 .sec6-square img{
     width: 50%;
+    
 }
 #sec6hr{
     margin-right: 80%;
@@ -433,6 +440,7 @@ h2{
 
 .sec6-square p{
     margin-bottom: 50px;
+    margin-right: 20px;
 }
 
 .sec6-botdiv h2{
@@ -467,6 +475,27 @@ h2{
     background-color: #A2D39B;
     border: 8px solid #D1E9CD;
 }
+.box2{
+    background-color: #61082B;
+}
+.box3{
+    background-color: #0093CE;
+}
+.box4{
+    background-color: #FF1C1C;
+}
+.box5{
+    background-color: #D5001F;
+}
+.box6{
+    background-color: #B4D0E7;
+}
+.box7{
+    background-color: #0D2481;
+}
+.box8{
+    background-color: #FFD830;
+}
 /* sezione7 */
 
 .sec7{
@@ -476,24 +505,31 @@ h2{
     margin: auto;
     margin-top: 100px;
 }
-.question{
+.inner-sec7{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
+}
+summary{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.q1{
-    border-top: 1px solid grey;
+details{
+    margin: 20px 0;
+    border-top: 1px solid black;
+    padding-top: 20px;
 }
-.q2{
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+details summary{
+    font-weight: bold;
 }
-.q3{
-    border-bottom: 1px solid grey;
+.last-details{
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
 }
-.question p{
-    margin: 30px 0;
+details> p{
+    margin-top: 20px;
 }
 
 /* footer  */
@@ -539,29 +575,6 @@ footer>*{
 
 /* effetti */
 
-/* .hidden-menù-nav{
-    background-color: #F2EEE8;
-    width: 500px;
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-    top: 9vh;
-    left: 165px;
-}
-.hidden-ulsx{
-    width: 40%;
-}
-.hidden-uldx{
-    width: 60%;
-}
-.hidden-menù-nav li{
-    list-style: none;
-    margin: 10px 0;
-}
-.hidden-ulsx ul{
-    display: flex;
-    flex-direction: column;
-} */
 
 .link-navsx:hover{
     padding-top: 31px;
@@ -578,7 +591,7 @@ a:hover{
     transition: 0;
 }
 
-#btn-trova-partner:hover{
+#trova-partner:hover{
     background-color: var(--nero);
     color: var(--bianco);
     transition: 0;
