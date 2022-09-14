@@ -18,6 +18,28 @@
         <nav>
 
             <div class="menùsx">
+                <!-- menù nascosto -->
+                <!-- <div id="nascostonav" class="hidden-menù-nav">
+                    <div class="hidden-ulsx">
+                        <ul><strong>Panoramica</strong>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                    </div>
+                    <div class="hidden-uldx">
+                        <ul><strong>Lavora al meglio con Dropbox</strong>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                    </div>
+                </div> -->
+                <!-- fine menù nascoto  -->
                 <img src="./img/logo-small.png" alt="logo">
                 <a class="link-navsx" href="#">Perch&eacute; Dropbox</a>
                 <a class="link-navsx" href="#">Funzioni</a>
@@ -40,7 +62,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori cono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <a href="#">Inizia la tua prova gratuita</a>
                         <p class="fine-iscrizione">Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down"></i>
+                        <a id="arrow-hero-link" href="#sezionepagamenti"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                     <div>
                         <img src="./img/jumbo.png" alt="heroimg">
@@ -54,10 +76,16 @@
     <main>
 
         <section class="sec1">
-
+            <h2>Trova il piano business che fa per te</h2>
+            <div class="inner-sec1">
+                <input type="radio" id="mese" name="fatturazioni" value="mese" checked>
+                <label for="mese">Fatturazione mensile</label>
+                <input type="radio" id="anno" name="fatturazioni" value="anno">
+                <label for="anno">Fatturazione annuale</label>
+            </div>
         </section>
 
-        <section class="sec2">
+        <section id="sezionepagamenti" class="sec2">
 
             <div class="container-sec2">
 
@@ -183,7 +211,7 @@
             <div class="inner-sec3">
                 <h2>Entra in contatto con un partner Dropbox</h2>
                 <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzionied i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione,gestione e supporto continui.</p>
-                <button class="btn-sec3"><a href="#">Trova un partner</a></button>
+                <button id="btn-trova-partner" class="btn-sec3"><a href="#">Trova un partner</a></button>
             </div>
 
         </section>
@@ -242,10 +270,10 @@
 
             <div class="sec6-topdiv">
                 <div class="squarein4 square">
-                    <div style="background-color: #A2D39B"><img src="./img/designit.svg" alt=""></div>
+                    <div class="box1"><img src="./img/designit.svg" alt=""></div>
                     <div style="background-color: #61082B"><img src="./img/arizona_state_university.svg" alt=""></div>
                     <div style="background-color: #0093CE"><img src="./img/university_of_florida.svg" alt=""></div>
-                    <div style="background-color: red"><img src="./img/topps.svg" alt=""></div>
+                    <div style="background-color: #FF1C1C"><img src="./img/topps.svg" alt=""></div>
                 </div>
 
                 <div style="background-color: var(--grigio)" class="sec6-square square">
@@ -256,10 +284,10 @@
                 </div>
 
                 <div class="squarein4 square">
-                    <div style="background-color: darkred"><img src="./img/world_bicycle_relief.svg" alt=""></div>
-                    <div style="background-color: var(--azzurrino)"><img src="./img/hearst_corp.svg" alt=""></div>
-                    <div style="background-color: blue"><img src="./img/lonely_planet.svg" alt=""></div>
-                    <div style="background-color: rgb(206, 178, 20)"><img src="./img/clear_channel.svg" alt=""></div>
+                    <div style="background-color: #D5001F"><img src="./img/world_bicycle_relief.svg" alt=""></div>
+                    <div style="background-color: #B4D0E7"><img src="./img/hearst_corp.svg" alt=""></div>
+                    <div style="background-color: #0D2481"><img src="./img/lonely_planet.svg" alt=""></div>
+                    <div style="background-color: #FFD830"><img src="./img/clear_channel.svg" alt=""></div>
                 </div>
             </div>
 

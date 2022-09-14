@@ -37,6 +37,7 @@ nav{
 }
 
 .menùsx{
+    position: relative;
     margin-left: 1%;
     width: 50%;
     display: flex;
@@ -130,6 +131,10 @@ nav{
 .fine-iscrizione{
     margin: 50px 0;
 } 
+#arrow-hero-link{
+    color: var(--nero);
+    padding: 0;background-color: var(--azzurrino);
+}
 /* fine hero */
 
 /* main  */
@@ -137,10 +142,20 @@ nav{
 .sec1{
     width: 55%;
     margin: auto;
-    border: 1px solid black;
-    height: 300px;
+    height: 200px;
 }
+.inner-sec1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sec1 h2{
+    margin-top: 100px;
+}
+.inner-sec1 :nth-child(2){
+    margin-right: 30px;
 
+}
 
 /* sezione2 */
 .sec2{
@@ -447,6 +462,11 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
+.box1{
+    background-color: #A2D39B;
+    border: 8px solid #D1E9CD;
+}
 /* sezione7 */
 
 .sec7{
@@ -515,4 +535,55 @@ footer>*{
     color: var(--bianco);
     border: none;
     margin: 30px 0;
+}
+
+/* effetti */
+
+/* .hidden-menù-nav{
+    background-color: #F2EEE8;
+    width: 500px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    top: 9vh;
+    left: 165px;
+}
+.hidden-ulsx{
+    width: 40%;
+}
+.hidden-uldx{
+    width: 60%;
+}
+.hidden-menù-nav li{
+    list-style: none;
+    margin: 10px 0;
+}
+.hidden-ulsx ul{
+    display: flex;
+    flex-direction: column;
+} */
+
+.link-navsx:hover{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #F2EEE8;
+}
+.link-navdx:hover{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #F2EEE8;
+}
+a:hover{
+    background-color: #3b7aff;
+    transition: 0;
+}
+
+#btn-trova-partner:hover{
+    background-color: var(--nero);
+    color: var(--bianco);
+    transition: 0;
+}
+.container-footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
